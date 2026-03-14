@@ -145,6 +145,7 @@ standup-ai ~/work/myapp --yesterday
 
 # Before committing: review your own code
 critiq --diff origin/main
+testfix pytest                      # 3. Auto-fix failing tests
 
 # Generate commit message + PR description
 gpr --commit-run && gpr --pr
@@ -171,6 +172,8 @@ changelog-ai v1.0..v2.0
 No code is sent to the LLM — only commit metadata.
 
 ---
+
+- [testfix](https://github.com/faw21/testfix) — AI failing test auto-fixer
 
 - [difftests](https://github.com/faw21/difftests) — AI test generator from git diffs
 
