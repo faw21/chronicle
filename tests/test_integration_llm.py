@@ -10,7 +10,7 @@ import os
 import pytest
 from dotenv import load_dotenv
 
-load_dotenv("/Users/aaronwu/Local/my-projects/give-it-all/.env")
+load_dotenv("/Users/aaronwu/Local/my-projects/give-it-all/.env", override=True)
 
 from chronicle.providers import get_provider
 from chronicle.providers.anthropic import AnthropicProvider
