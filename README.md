@@ -157,7 +157,7 @@ gitbrief --changed-only --base main | pbcopy
 changelog-ai v1.0..v2.0
 \`\`\`
 
-**Ecosystem:** [standup-ai](https://github.com/faw21/standup-ai) · [critiq](https://github.com/faw21/critiq) · [gpr](https://github.com/faw21/gpr) · [gitbrief](https://github.com/faw21/gitbrief) · [changelog-ai](https://github.com/faw21/changelog-ai) · **chronicle-ai**
+**Ecosystem:** [standup-ai](https://github.com/faw21/standup-ai) · [critiq](https://github.com/faw21/critiq) · [gpr](https://github.com/faw21/gpr) · [gitbrief](https://github.com/faw21/gitbrief) · [changelog-ai](https://github.com/faw21/changelog-ai) · [testfix](https://github.com/faw21/testfix) · **chronicle-ai**
 
 ---
 
@@ -175,6 +175,8 @@ No code is sent to the LLM — only commit metadata.
 - [difftests](https://github.com/faw21/difftests) — AI test generator from git diffs
 
 - [critiq-action](https://github.com/faw21/critiq-action) — critiq as a GitHub Action for CI
+
+- [mergefix](https://github.com/faw21/mergefix) — AI merge conflict resolver: fix all conflicts with one command
 
 ## License
 
