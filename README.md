@@ -172,6 +172,10 @@ No code is sent to the LLM — only commit metadata.
 
 ---
 
+- [difftests](https://github.com/faw21/difftests) — AI test generator from git diffs
+
+- [critiq-action](https://github.com/faw21/critiq-action) — critiq as a GitHub Action for CI
+
 ## License
 
 MIT — see [LICENSE](LICENSE)
