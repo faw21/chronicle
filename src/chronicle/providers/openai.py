@@ -41,7 +41,7 @@ class OpenAIProvider(BaseProvider):
             response = client.chat.completions.create(
                 model=self._model,
                 messages=messages,
-                max_tokens=2048,
+                max_completion_tokens=2048,
             )
             return response.choices[0].message.content
         except Exception as e:
